@@ -1,7 +1,5 @@
- 
-// models/user.js
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs'); // schimbat din 'bcrypt'
 
 const userSchema = new mongoose.Schema({
   username: String,
